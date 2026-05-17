@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
-import { DashboardPage } from '../pages/DashboardPage';
+import { DashBoardPage } from '../pages/DashBoardPage';
 
 test.describe('Login Tests', () => {
 
@@ -8,7 +8,7 @@ test.describe('Login Tests', () => {
 
     // Instanciation des pages
     const loginPage = new LoginPage(page);
-    const dashboardPage = new DashboardPage(page);
+    const dashboardPage = new DashBoardPage(page);
 
     // Ouvrir la page login
     await loginPage.gotoLoginPage();

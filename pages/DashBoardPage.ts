@@ -1,7 +1,7 @@
 import { Locator, Page, expect } from '@playwright/test';
 import { BasePage } from './BasePage';
 
-export class DashboardPage extends BasePage {
+export class DashBoardPage extends BasePage {
 
   readonly dashboardTitle: Locator;
   readonly userDropdown: Locator;
